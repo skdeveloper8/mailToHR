@@ -1,0 +1,9 @@
+curl --location 'http://localhost:3000/send-mails' \
+--header 'Authorization: Bearer <ACCESS_TOKEN>' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+  "emails": ["sangeet.kumar@buopso.com", "sharmaarya559@gmail.com","harsh.saini@buopso.com"],
+  "subject": "Application for Nodejs Developer",
+  "text": "Dear Sir/Ma'\''am,\n\nI hope this email finds you well. I am writing to express my interest in the Node.js developer role.\n\nPlease find attached my resume outlining my qualifications and experience as a Node.js developer.\n\nI am confident that my skills make me a strong candidate for this role. I am eager to contribute to the success of your team and am looking forward to the possibility of joining your company.\n\nThank you for considering my application. I am available for an interview at your earliest convenience and can be reached at 7217752387.\n\nWarm regards,\n\nSangeet Kumar"
+}
+'
